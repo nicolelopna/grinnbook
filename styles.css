@@ -1,0 +1,11 @@
+@import url("styles/hearder.css");
+
+:root {
+    --cor-de-fundo: #C4C4C4;
+    --branco: #FFFFFF;
+}
+
+body {
+    background-color: #C4C4C4
+}
+
