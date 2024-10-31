@@ -3,14 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>grinnbook</title>
+    <title>GrinnBook</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="reset.css">
 </head>
 <body>
     <header class="cabeçalho">
         <div class="container">
+            <input type="checkbox" id="menu" class="container_botão">
+            <label for="menu">
         <span class="cabeçalho__menu-hamburguer container_imagem"></span>
+    </label>
+    <ul class="lista-menu">
+        <li class="lista-menu__titulo">Categorias</li>
+        <li class="lista-menu__item">
+            <a href="#" class ="lista-menu__link">Livros De Bruxaria</a>
+        </li>
+        <li class="lista-menu__item">
+            <a href="#" class ="lista-menu__link">Livros de Terror</a>
+        </li>
+        <li class="lista-menu__item">
+            <a href="#" class ="lista-menu__link">Tarots</a>
+        </li>
+        <li class="lista-menu__item">
+            <a href="#" class ="lista-menu__link">Itens</a>
+        </li>
+        <li class="lista-menu__item">
+            <a href="#" class ="lista-menu__link">Forúns de Jogos de Terror</a>
+        </li>
+    </ul>
         <img src="img/logo do griinnbook certo.svg" alt="Logo da grinnbook" class="container_imagem">
     </div>
     <div class="container">
@@ -19,5 +40,11 @@
         <a href="#"><img src="img/perfil logo arrumada.svg" alt="Perfil do usuário" class="container_imagem"></a>
     </div>
     </header>
+    <section class="banner">
+        <h2 class="banner__titulo">A escuridão tem suas histórias...</h2>
+        <h2 class="banner__titulo2">Já encontrou as sua?</h2>
+        <p class="banner__texto">Procure pelo o oculto, encontre sua próxima leitura</p>
+        <input type="search" class="banner__busca" placeholder=".....">
+    </section>
 </body>
 </html>

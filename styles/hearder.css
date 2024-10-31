@@ -12,6 +12,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        position: relative;
     }
     
     .container {
@@ -22,3 +23,43 @@
    .container_imagem {
     padding: 0.50em;
    }
+   
+   .lista-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+   }
+
+   .container_botão:checked ~ .lista-menu {
+    display: block;
+   }
+    
+   .lista-menu__titulo, .lista-menu__item {
+    padding: 0.80em;
+    background-color: #ffffff;
+    
+   }
+
+    .lista-menu__titulo {
+     color: var(--vermelhoprincipal);
+     font-family: "UnifrakturMaguntia", cursive;
+     font-weight: 400;
+     font-style: normal;
+     font-size: 1.3em;
+    }
+
+    .lista-menu__link {
+        text-decoration: none;
+        color: var(--preto);
+        font-family: "Afacad", sans-serif;
+        font-optical-sizing: auto;
+         font-weight:weight;
+        font-style: normal;
+        text-transform: uppercase;
+
+        
+    }
+
+    .container_botão {
+        display: none;
+    }

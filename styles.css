@@ -1,8 +1,14 @@
 @import url("styles/hearder.css");
+@import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Tajawal:wght@200;300;400;500;700;800;900&family=UnifrakturMaguntia&display=swap');
+@import url("styles/banner.css");
+@import url('https://fonts.googleapis.com/css2?family=Afacad:ital@0;1&family=Poppins:ital,wght@0,100;0,200');
 
 :root {
     --cor-de-fundo: #C4C4C4;
     --branco: #FFFFFF;
+    --vermelhoprincipal: #690E0E;
+    --preto: #000000;
 }
 
 body {
